@@ -1,0 +1,212 @@
+body {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; FONT-SIZE: 12px;
+margin-top: 3px;
+margin-bottom: 3px;
+}
+
+hr {
+	width: 400px;
+	color: gray;
+}
+
+.fejlec {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: 10px;
+}
+
+.cell1 {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: 10px;
+}
+
+.cell2 {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; COLOR: #003399; FONT-SIZE: 10px;
+background-color: #e0e0e0;
+}
+
+a.nah {
+	FONT-FAMILY: Verdana, Helvetica, sans-serif;
+	COLOR: #0000FF;
+	FONT-SIZE: 10px;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+}
+
+a.nah:hover {
+	FONT-FAMILY: Verdana, Helvetica, sans-serif;
+	COLOR: Red;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	TEXT-DECORATION: none;
+}
+
+
+a.nah2 {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; COLOR: #ffffff; FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-DECORATION: none;
+}
+
+a.nah2:hover {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; COLOR: #ffffff; FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-DECORATION: underline;
+}
+
+.adat_mezo {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; FONT-SIZE: 10px;
+border: ridge 1px black;
+width: 150px;
+}
+
+.gomb {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; FONT-SIZE: 10px;
+color: white;
+font-weight: bold;
+background-color: green;
+border: ridge 1px black;
+}
+
+.hiba {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; COLOR: #ff0000; FONT-SIZE: 12px;
+}
+
+.nyugtazas {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; COLOR: green; FONT-SIZE: 12px;
+}
+
+.message {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; COLOR: black; FONT-SIZE: 10px;
+text-align: center;
+}
+
+.form_title {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; COLOR: black; FONT-SIZE: 12px;
+font-weight: bold;
+text-align: center;
+
+}
+
+.data_cell {
+	FONT-FAMILY: Verdana, Helvetica, sans-serif;
+	COLOR: #000000;
+	FONT-SIZE: 10px;
+	background-color: #FFFFBB;
+	text-align: center;
+}
+
+.data_cell_figyelmeztet {
+	FONT-FAMILY: Verdana, Helvetica, sans-serif;
+	COLOR: #840000;
+	FONT-SIZE: 12px;
+	background-color: #FFFF00;
+	text-align: center;
+}
+.data_table {
+border: solid 1px black;
+width: 80%;
+}
+
+.form_table {
+border: solid 1px black;
+padding: 5px;
+background-color: #FFFFBB;
+}
+
+.link_table {
+	border: 0px solid Black;
+	text-align: center;
+}
+
+.link_cell {
+	border: 1px outset Green;
+	background-color: #e0e0e0;
+}
+
+.nev_cella {
+background-color: #FF9900;
+FONT-FAMILY: Verdana, Helvetica, sans-serif;
+COLOR: #FFFFFF;
+FONT-SIZE: 10px;
+border: solid 1px black;
+width: 50%;
+}
+
+.comment_cella {
+background-color: #FFFF99;
+FONT-FAMILY: Verdana, Helvetica, sans-serif;
+COLOR: #000000;
+FONT-SIZE: 10px;
+border: solid 1px black;
+}
+
+.cimke {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; FONT-SIZE: 10px; color: black; font-weight: bold;
+}
+
+.cimke2 {
+FONT-FAMILY: Verdana, Helvetica, sans-serif; FONT-SIZE: 10px; color: black; font-weight: bold; vertical-align: top;
+}
+
+.cimsor {
+FONT-FAMILY: Verdana, Helvetica, sans-serif;
+FONT-SIZE: 14px;
+color: black;
+font-weight: bold;
+text-align: center;
+}
+
+.header {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Verdana, sans-serif;
+	COLOR: black;
+	font-weight: bold;
+	TEXT-DECORATION: none;
+	height: 20px;
+	background-color: #e0e0e0;
+	border-bottom: solid 1px green;
+
+}
+
+.footer {
+	FONT-SIZE: 10px;
+	FONT-FAMILY: Verdana, sans-serif;
+	COLOR: #858585;
+	TEXT-DECORATION: none;
+	height: 10px;
+	background-color: #e0e0e0;
+	border-top: solid 1px green;
+}
+
+.keret {
+	border: solid 1px green;
+	width: 800px;
+	height: 95%;
+	vertical-align: middle;
+}
+
+.content {
+ vertical-align: top;
+}
+.LV_validation_message{
+    font-weight:bold;
+    margin:0 0 0 5px;
+}
+
+.LV_valid {
+    color:#00CC00;
+}
+	
+.LV_invalid {
+    color:#CC0000;
+}
+    
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active {
+    border: 1px solid #00CC00;
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active {
+    border: 1px solid #CC0000;
+}
